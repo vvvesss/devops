@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: ubuntu-test-pod
+  namespace: devops-tools
   labels:
     app: ubuntu
 spec:
